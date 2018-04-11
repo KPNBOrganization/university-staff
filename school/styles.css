@@ -152,23 +152,25 @@ header {
 
 	.schedule th {
 		text-align: left;
-		padding: 10px 0px;
+		padding: 10px;
 		border-bottom: 1px solid #eeeeee;
 	}
 
 	.schedule .day {
 		font-style: italic;
 		text-align: center;
-		padding: 20px 0px 10px;
-	}
-
-	.schedule tr {
-		
+		padding: 20px 10px 10px;
 	}
 
 		.schedule tr td {
-			padding: 10px 0px;
+			padding: 10px;
 			border-bottom: 1px solid #eeeeee;
+		}
+
+		.schedule tr td:nth-child(1),
+		.schedule tr td:nth-child(3),
+		.schedule tr td:nth-child(5) {
+			border-right: 1px solid #eeeeee;
 		}
 
 footer {
