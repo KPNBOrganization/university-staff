@@ -215,6 +215,30 @@ header {
 		padding: 10px;
 	}
 
+.statistics {
+	width: 100%;
+}
+
+	.statistics th, .statistics td {
+		padding: 15px;
+		border-bottom: 1px solid #eeeeee;
+	}
+
+	.statistics th {
+		padding: 30px 15px 15px;
+	}
+
+	.statistics .medal {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	}
+
+	.statistics .bronze { background: #c86345; }
+	.statistics .silver { background: #a7a7a7; }
+	.statistics .gold { background: #f9bb48; }
+
 footer {
 	background: #3f5976;
 	color: #ffffff;
