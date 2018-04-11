@@ -146,6 +146,31 @@ header {
 		opacity: 1;
 	}
 
+.schedule {
+	width: 100%;
+}
+
+	.schedule th {
+		text-align: left;
+		padding: 10px 0px;
+		border-bottom: 1px solid #eeeeee;
+	}
+
+	.schedule .day {
+		font-style: italic;
+		text-align: center;
+		padding: 20px 0px 10px;
+	}
+
+	.schedule tr {
+		
+	}
+
+		.schedule tr td {
+			padding: 10px 0px;
+			border-bottom: 1px solid #eeeeee;
+		}
+
 footer {
 	background: #3f5976;
 	color: #ffffff;
