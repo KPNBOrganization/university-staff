@@ -4,7 +4,6 @@
 #include "Field.h"
 #include "Mini_FootballDlg.h"
 
-extern CMiniFootballDlg *FootballDlg;
 
 Ball::Ball(CWnd* pImage, Field* Secondfield) {
 	field = Secondfield;
